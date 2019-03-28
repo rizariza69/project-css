@@ -1,0 +1,10 @@
+.container {
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.navigasi{
+  display: flex;
+  justify-content: center;
+}
