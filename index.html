@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css"> 
     <title>M Riza - Project HTML</title>
   </head>
 
-  <body class="container">
-    <nav class="navigasi">
+  <body >
+    <div id="container" class="container">
+    <nav id="navigation" class="navigation">
       <a href="#home">Home</a>
       <a href="#aboutme">About Me</a>
       <a href="#myproject">My Project</a>
@@ -17,17 +19,18 @@
     </nav>
 
     <main>
-      <div>
-        <img src="images/background-cover.jpg" alt="Background Cover" />
-        <h1><strong>Hello I'm Muhammad Riza</strong></h1>
+      <div id="header" class="header">
+        <!-- <img src="images/background-cover.jpg" alt="Background Cover" /> -->
+        <h1>Hello I'm Muhammad Riza</h1>
       </div>
 
-      <section id="about-me">
-        <div>
+      <section id="about-me" class="about-me">
+        <div id="about-me-title" class="about-me-title">
           <h1>
             About Me
           </h1>
-          <img src="images/avatar.jpg" alt="Avatar" />
+          <div class="about-me-description">
+          <img class="about-me-avatar" src="images/avatar.jpg" alt="Avatar" />
           <p>
             I have been Working 8 years to be a business development and
             Marketing make me change my mind about technology for future, and
@@ -35,6 +38,7 @@
             Javascript Programmer want to switch Carrier to be a
             <strong>Profesional Fullstack Developer</strong>
           </p>
+        </div>
         </div>
       </section>
 
@@ -90,5 +94,6 @@
     <footer>
       <p>Copyright © 2019 Muhammad Riza</p>
     </footer>
+  </div>
   </body>
 </html>

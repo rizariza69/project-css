@@ -1,10 +1,50 @@
+body {
+  font-family: Montserrat Alternates;
+}
 .container {
  
   justify-content: center;
   align-items: center;
+  
 }
 
-.navigasi{
+.navigation{
   display: flex;
   justify-content: center;
+  font-size: 24px;
+  
+}
+
+.navigation a{
+  padding: 0 30px;
+}
+
+.header h1 {
+  background-image: url(images/background-cover.jpg);
+  height: 718px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:48px;
+  color:#F2F2F2;
+  font-weight: 900;
+}
+
+.about-me-avatar{
+  width: 40%;
+  height:40%;
+}
+.about-me .about-me-title{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  font-size: 30px;
+ 
+}
+
+.about-me-description {
+ display:flex;
+ flex-direction: row; 
 }
