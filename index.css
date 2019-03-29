@@ -5,19 +5,25 @@ body {
  
   justify-content: center;
   align-items: center;
-  
+}
+
+a {
+  text-decoration: none;
 }
 
 .navigation{
   display: flex;
   justify-content: center;
   font-size: 24px;
+  margin-top: 30px;
   
 }
 
 .navigation a{
   padding: 0 30px;
+  color: black;
 }
+
 
 .header h1 {
   background-image: url(images/background-cover.jpg);
@@ -31,9 +37,14 @@ body {
   font-weight: 900;
 }
 
+.about-me-title h1 {
+  align-self: center;
+  text-decoration: underline;
+}
+
 .about-me-avatar{
-  width: 40%;
-  height:40%;
+  width: 35%;
+  height:35%;
 }
 .about-me .about-me-title{
   display:flex;
@@ -44,7 +55,26 @@ body {
  
 }
 
+.about-me-title {
+  align-content: center;
+}
+
 .about-me-description {
  display:flex;
  flex-direction: row; 
+ text-align: justify;
+}
+
+.my-project h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 48px;
+}
+
+.my-project {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+
 }
