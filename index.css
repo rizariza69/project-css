@@ -1,3 +1,7 @@
+html {
+  background-color: #F2F2F2;
+}
+
 body {
   font-family: Montserrat Alternates;
 }
@@ -5,6 +9,8 @@ body {
  
   justify-content: center;
   align-items: center;
+  max-width: 1300px;
+  margin:auto;
 }
 
 a {
@@ -32,7 +38,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:40px;
+  font-size:60px;
   color:#F2F2F2;
   font-weight: 900;
 }
@@ -43,8 +49,9 @@ a {
 }
 
 .about-me-avatar{
-  width: 35%;
-  height:35%;
+  width: 30%;
+  height:30%;
+  margin: 30px 30px;
 }
 .about-me .about-me-title{
   display:flex;
@@ -63,6 +70,7 @@ a {
  display:flex;
  flex-direction: row; 
  text-align: justify;
+ margin: 0 30px;
 }
 
 .my-project h1{
@@ -82,14 +90,68 @@ a {
 
 .my-project-1 {
   display:flex;
+  justify-content: center;
+  align-self: center;
   flex-direction: row;
   text-align: justify;
+  margin: 30px 30px;
+ 
+}
+.my-project-1 a {
+  /* margin: 0 90px ; */
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 30px;
+  color: black;
 }
 
+.my-project-todo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 200px 0 0;
+  text-align: center;
+}
+
+.my-project-kanban {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 200px 0;
+  text-align: center;
+}
 .my-project-2 {
   display:flex;
   flex-direction: row;
-  text-align: justify;
+  /* text-align: justify; */
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px;
+}
+
+.my-project-2 a {
+  margin: 200px ;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.my-project-ecommerce {
+  display: flex;
+  flex-direction: column;
+  margin : 0 200px 0 0;
+  text-align: center;
+  font-size: 30px;
+  color:black;
+}
+
+.my-project-games {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 200px 0;
+  text-align: center;
+  font-size: 30px;
+  color:black;
 }
 
 .contact-me h1{
@@ -107,3 +169,16 @@ a {
   flex-direction: row;
   text-align: center;
 }
+
+.footer {
+  display:flex;
+  background-color:black;
+  color: white;
+}
+
+.footer p {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
