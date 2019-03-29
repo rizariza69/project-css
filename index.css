@@ -79,6 +79,7 @@ a {
   text-decoration: underline;
   font-size: 40px;
   align-self: center;
+  margin: 40px 0 60px 0;
 }
 
 .my-project {
@@ -86,6 +87,7 @@ a {
   justify-content: center;
   align-self: center;
   flex-direction: column;
+ 
 }
 
 .my-project-1 {
@@ -94,7 +96,7 @@ a {
   align-self: center;
   flex-direction: row;
   text-align: justify;
-  margin: 30px 30px;
+  /* margin: 30px 30px; */
  
 }
 .my-project-1 a {
@@ -104,6 +106,7 @@ a {
   align-self: center;
   font-size: 30px;
   color: black;
+  
 }
 
 .my-project-todo {
@@ -111,6 +114,7 @@ a {
   flex-direction: column;
   margin: 0 200px 0 0;
   text-align: center;
+ 
 }
 
 .my-project-kanban {
@@ -126,14 +130,15 @@ a {
   align-self: center;
   justify-content: center;
   text-align: center;
-  margin: 30px 30px;
+  /* margin: 30px 30px; */
 }
 
 .my-project-2 a {
-  margin: 200px ;
+  /* margin: 200px ; */
   text-align: center;
   justify-content: center;
   align-self: center;
+  color:black;
 }
 
 .my-project-ecommerce {
@@ -143,6 +148,8 @@ a {
   text-align: center;
   font-size: 30px;
   color:black;
+  width: 388px;
+  height: 345px;
 }
 
 .my-project-games {
@@ -152,6 +159,8 @@ a {
   text-align: center;
   font-size: 30px;
   color:black;
+  width: 388px;
+  height: 345px;
 }
 
 .contact-me h1{
@@ -170,15 +179,50 @@ a {
   text-align: center;
 }
 
-.footer {
+.contact-me-phone a {
   display:flex;
+  justify-content: center;
+  flex-direction:column;
+  font-size: 28px;
+  color:black;
+}
+.contact-me-phone img{
+  width: 66px;
+  height: 66px;
+}
+
+.contact-me-email a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 28px;
+  color: black;
+}
+.social {
+  display:flex;
+  justify-content: center;
+}
+.social a  {
+  align-items: center;
+  margin: 40px 40px;
+}
+
+.social a img {
+  width: 66px;
+  height:66px;
+}
+
+.footer {
   background-color:black;
   color: white;
+  height:90px;
 }
 
 .footer p {
   display:flex;
   justify-content: center;
   text-align: center;
+  align-self: center;
+  padding-top: 25px;
 }
 
