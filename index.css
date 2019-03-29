@@ -32,7 +32,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:48px;
+  font-size:40px;
   color:#F2F2F2;
   font-weight: 900;
 }
@@ -66,9 +66,11 @@ a {
 }
 
 .my-project h1{
+  display: flex;
   text-align: center;
   text-decoration: underline;
-  font-size: 48px;
+  font-size: 40px;
+  align-self: center;
 }
 
 .my-project {
@@ -76,5 +78,32 @@ a {
   justify-content: center;
   align-self: center;
   flex-direction: column;
+}
 
+.my-project-1 {
+  display:flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.my-project-2 {
+  display:flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.contact-me h1{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.contact-me-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
 }
